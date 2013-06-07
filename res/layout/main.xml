@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"   >
+<Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Recording"
+        android:onClick="startRecording" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Recording" 
+        android:enabled="false"
+         android:onClick="stopRecording"
+        />
+ <Button
+        android:id="@+id/start_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Recording" 
+        android:enabled="false"
+         android:onClick="stopRecording"
+        />
+  <Button
+        android:id="@+id/save_edited_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save edited recording" 
+        android:enabled="false"
+         android:onClick="stopRecording"
+        />
+
+  <Button
+      android:id="@+id/play_edited_audio"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Play edited recording" />
+
+  <Button
+      android:id="@+id/forward"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Forward" />
+
+  <Button
+      android:id="@+id/backward"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Backward" />
+
+</LinearLayout>
